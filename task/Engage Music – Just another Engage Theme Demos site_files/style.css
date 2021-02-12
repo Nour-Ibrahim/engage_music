@@ -1,0 +1,244 @@
+/*--------------------------------
+
+EngageIcons Web Font - built using nucleoapp.com
+License - nucleoapp.com/license/
+
+-------------------------------- */
+@font-face {
+  font-family: 'EngageIcons';
+  src: url('../fonts/EngageIcons.eot');
+  src: url('../fonts/EngageIcons.eot') format('embedded-opentype'), url('../fonts/EngageIcons.woff2') format('woff2'), url('../fonts/EngageIcons.woff') format('woff'), url('../fonts/EngageIcons.ttf') format('truetype'), url('../fonts/EngageIcons.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*------------------------
+	base class definition
+-------------------------*/
+.engage-icon-icon,
+.dashicons-admin-engage {
+  display: inline-block;
+  font: normal normal normal 14px/1 'EngageIcons';
+  font-size: inherit;
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*------------------------
+  change icon size
+-------------------------*/
+.engage-icon-icon.lg {
+  font-size: 1.33333333em;
+  vertical-align: -16%;
+}
+.engage-icon-icon.x2 {
+  font-size: 2em;
+}
+.engage-icon-icon.x3 {
+  font-size: 3em;
+}
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+.engage-icon-icon.square,
+.engage-icon-icon.circle {
+  padding: 0.33333333em;
+  vertical-align: -16%;
+  background-color: #eee;
+}
+.engage-icon-icon.circle {
+  border-radius: 50%;
+}
+/*------------------------
+  list icons
+-------------------------*/
+.engage-icon-icon-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.engage-icon-icon-ul > li {
+  position: relative;
+}
+.engage-icon-icon-ul > li > .engage-icon-icon {
+  position: absolute;
+  left: -1.57142857em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.engage-icon-icon-ul > li > .engage-icon-icon.lg {
+  top: 0;
+  left: -1.35714286em;
+}
+.engage-icon-icon-ul > li > .engage-icon-icon.circle,
+.engage-icon-icon-ul > li > .engage-icon-icon.square {
+  top: -0.19047619em;
+  left: -1.9047619em;
+}
+/*------------------------
+  spinning icons
+-------------------------*/
+.engage-icon-icon.spin {
+  -webkit-animation: engage-icon-icon-spin 2s infinite linear;
+  -moz-animation: engage-icon-icon-spin 2s infinite linear;
+  animation: engage-icon-icon-spin 2s infinite linear;
+}
+@-webkit-keyframes engage-icon-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes engage-icon-icon-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes engage-icon-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+.engage-icon-icon.rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.engage-icon-icon.rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.engage-icon-icon.rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.engage-icon-icon.flip-y {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.engage-icon-icon.flip-x {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+/*------------------------
+	font icons
+-------------------------*/
+
+.engage-icon-zoom-2::before {
+    content: "\ea01";
+}
+
+.engage-icon-bag-add-21::before {
+    content: "\ea02";
+}
+
+.engage-icon-bag-add-18::before {
+    content: "\ea03";
+}
+
+.engage-icon-bag-20::before {
+    content: "\ea04";
+}
+
+.engage-icon-bag-09::before {
+    content: "\ea05";
+}
+
+.engage-icon-link-72::before {
+    content: "\ea06";
+}
+
+.engage-icon-simple-remove::before {
+    content: "\ea07";
+}
+
+.engage-icon-tail-right::before {
+    content: "\ea08";
+}
+
+.engage-icon-quote::before {
+    content: "\ea09";
+}
+
+.engage-icon-grid-48::before {
+    content: "\ea0a";
+}
+
+.engage-icon-grid-45::before {
+    content: "\ea0b";
+}
+
+.engage-icon-triangle-right-17::before {
+    content: "\ea0c";
+}
+
+.engage-icon-engage-icon2::before {
+    content: "\ea0d";
+}
+
+
+/* all icon font classes list here */
+
+/* Admin */
+
+#wpcontent .ef-icon:before,
+.engage-icon-icon:before,
+.dashicons-admin-engage:before {
+	font-family: 'EngageIcons' !important;
+}
+
+.ef-engage-icon::before,
+.dashicons-admin-engage:before {
+    content: "\ea0d";
+}
+
+#adminmenu .ef-icon:before {
+    font-size: 20px !important;
+}
+
+#wpcontent .ab-icon.engage-icon-icon {
+    padding-top: 6px !important;
+}
+
+#wpcontent .ab-icon.dashicons-admin-generic {
+	padding-top: 5px !important;
+}

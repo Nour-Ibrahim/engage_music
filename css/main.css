@@ -1,0 +1,347 @@
+/*start home*/
+html{
+    overflow-x: hidden;   
+   }
+   .nav{
+       z-index: 3;
+       margin-top:33px;
+       float: right;
+   }
+   .test{
+       z-index: 6;
+       background-color: rgba(255, 0, 200, 0.432);
+   }
+   .home{
+       background-image: url(../photo/contacts.jpg);
+       width: 100%;
+       height: 600px;
+       z-index: 1;
+       position: relative;
+   }
+   .home h2{
+       color: white;
+       float: left;
+   }
+   .home h2 span{  
+    background: white;
+    margin: 10px;
+    padding: 4px 5px;
+    color: black;
+   }
+   .nav .first{  
+    color: #9bbec0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-right: 40px;
+   }
+   .nav .thecond{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-right: 20px;
+   }
+   .welcome h3{ 
+    margin-top: 190px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+   }
+   .welcome h1{   
+    color: white;
+    text-align: center;
+    font-size: 60px;
+   }
+   .welcome p{ 
+    color: white;
+    text-align: center;
+    font-size: 25px;
+   }
+   .welcome button{ 
+    letter-spacing: 0.1px;
+    text-align: center;
+    padding: 10px 15px;
+    border: 1px solid white; 
+    margin-left: 45%;
+    color: #621f93;
+    margin-top: 20px
+   }
+   /*end home*/
+   /*start icons*/
+   .icons .ic-on{ 
+    margin-left: 90px;
+    margin-top: 60px;
+    float: left;
+   }
+   .icons .ic-on .one{
+    background-color: #ce5c9f;
+    color: white;
+    padding: 25px;
+    margin-left: 30px;
+   }
+   .icons .ic-on h4{  
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+   }
+   .icons .ic-on p{  
+    color: #888;
+    float: left;
+    text-align: center;
+    margin-left: -15px;
+    margin-top: 5px;
+    line-height: 25px;
+   }
+   /*end start*/
+   /*start float*/
+   .float{
+       margin-top: 50px;
+       background-color:#f8f8f8;
+       width: 100%;
+       height: 800px;
+       float: left;
+   }
+   .float .sec{
+       width: 40%;
+   }
+   .flo{
+       margin-top: -635px;
+       float: right;
+       width: 40%;
+       margin-right: 50px;
+   }
+   .float .sec h1{
+       padding-top:60px;
+       padding-left: 40px;
+       font-size: 30px;
+       margin-bottom: 15px;
+   }
+   .float .sec p{  
+    color: #606060;
+    padding-left: 40px;
+    letter-spacing: .02px;
+    line-height: 25px;
+    font-size: 16px;
+   }
+   .float .sec h4{
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+   /*end float*/
+   /*start music*/
+   .music{
+       width: 100%;
+       height: 500px;
+       margin-top: 0px;
+       background-image: url(../photo/music.jpg);
+       float: left;
+       margin-bottom: 50px;
+   }
+   .music h1{  
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+   }
+   .music .paragraph{ 
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    margin-top: 18px;
+   }
+   .music h5{    
+    color: white;
+    padding-top: 30px;
+    float: left;
+    padding-left: 80px;
+   }
+   .music p{    
+    color: white;
+    padding-top: 78px;
+    float: left;
+    margin-left: -156px;
+
+   }
+   /*end music*/
+   /*start our prices*/
+   .Our-Pieces h3{
+    margin-top: 500px;
+    text-align: center;
+    font-size: 30px;
+   }
+   .Our-Pieces p{
+    font-size: 17px;
+    color: #888;
+    text-align: center;
+    margin-top: 15px;
+}
+.see .img-one{ 
+    float: left;
+    padding-left: 50px;
+    z-index: 1;
+}
+.see .img-one:hover{ 
+    float: left;
+    padding-left: 50px;
+    transform: scale(1.012,1.012);
+    transition-duration: .1s;
+    transform: .1s;
+    z-index: 2;
+}
+.see button{
+    font-size: 18px;
+    margin-left: 45%;
+    margin-top: 60px;
+    background: #ce5c9f;
+    border: 1px solid #ce5c9f;
+    color: white;
+    padding: 9px 18px;
+    margin-bottom: 50px;
+}
+.see button:hover,
+.latest-news button:hover{
+    font-size: 18px;
+    margin-left: 45%;
+    margin-top: 60px;
+    background: black;
+    transition-duration: .2s;
+    transform: .2s;
+    color: white;
+    padding: 9px 18px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+/*end our prices*/
+/*start latest-news*/
+.latest-news{
+    background: #f8f8f8;
+    height: 600px;
+}
+.latest-news h2{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 30px;
+}
+.latest-news p{
+    color: #a7a7a7;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+}
+.para-one{
+    width: 30%;
+    margin-left: 35px;
+    margin-top: 40px;
+    padding: 10px;
+    background: white;
+    float: left;
+}
+.para-one h3{
+    text-align: left;
+    font-size: 25px;
+    font-weight: initial;
+}
+.para-one div{
+    text-align: left;
+    margin-top: 0px;
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.para-one p{
+    color: black;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: left;
+}
+.para-one a{
+    color: black;
+    font-size: 15px;
+}
+.latest-news button{
+    font-size: 18px;
+    margin-left: 45%;
+    margin-top: 60px;
+    background: #ce5c9f;
+    border: 1px solid #ce5c9f;
+    color: white;
+    padding: 9px 18px;
+    margin-bottom: 50px;
+}
+/*end latest-news*/
+/*start footer*/
+.contact{
+    background-image: url(../photo/create.jpg);
+    height: 450px;
+}
+.con-one{
+    float: left;
+    margin-left: 70px;
+}
+.contact .con-one h3{
+    padding-top: 50px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.contact .con-one p{
+    color: #6e6e6e;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+/*end footer*/
+/*start end*/
+.end{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+.end h1{
+    color: white;
+}
+.end h1 span{
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin-left: 40%;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.end p{
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 18px;
+}
+.end .icn,
+.end .icn:hover{
+    margin-left: 48%;
+    color: #ff00a5;
+}
+.end .icn:hover{
+    transition-duration: .2s;
+    color: blue;
+
+}
+.end .icn i,
+.end .icn i:hover{
+    margin-right: 5px;
+}
+/*end end*/
+
+
+
+
+
+
+
+
+
+
